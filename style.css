@@ -1,5 +1,42 @@
-#unique-title {
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#nosaukums {
     font-size: 24px;
-    color: blue;
+    color: rgb(4, 80, 41);
     /* Add more unique styles here */
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin: 10px 0; /* Add margin to top and bottom */
+}
+
+
+.black-text {
+    color: black;
+}
+
+.red-text {
+    color: red;
 }
