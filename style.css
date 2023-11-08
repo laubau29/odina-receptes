@@ -1,42 +1,75 @@
 * {
-    line-height: 1.5;
+    line-height: 2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+.page-background {
+    background-image: url(https://github.com/laubau29/odina-receptes/blob/main/bildes/galvena.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
-    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.page-background-about {
+    background-image: url(https://raw.githubusercontent.com/laubau29/odina-receptes/main/bildes/aboutpic.jpg);
+}
+
+.content,.page-background-about {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    margin-left:3cm;
 }
 
 #nosaukums {
-    font-size: 24px;
-    color: rgb(4, 80, 41);
-    /* Add more unique styles here */
+    font-size: 50px;
+    color: #045029;
+    margin-left: 0,3cm;
+    margin-bottom: 40px;
 }
 
-img {
-    width: 200px;
-}
 
-ul {
+
+.ul {
     list-style: none;
-    padding: 0; /* Remove default padding */
+    padding: 0;
 }
 
 li {
-    margin: 10px 0; /* Add margin to top and bottom */
+    margin: 10px 0;
 }
-
 
 .black-text {
     color: black;
 }
 
 .red-text {
-    color: red;
+    color: black;
 }
+
+.quote {
+    font-family: monospace;
+    position: absolute;
+    right:3cm;
+    top: 30;
+}
+
+.proverb {
+    padding-left: 70px;
+}
+
